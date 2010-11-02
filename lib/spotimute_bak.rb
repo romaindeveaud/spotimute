@@ -1,5 +1,3 @@
-#!/usr/bin/ruby1.8
-
 require 'gtk2'
 
 Debug = ARGV.empty? ? false : ( ARGV[0] == "-d" ? true : false )
